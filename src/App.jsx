@@ -1,7 +1,14 @@
-import "./App.css";
+import Card from "./components/Card";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <h1>Sanity Checking</h1>;
+  return (
+    <div>
+      <h1>App</h1>
+      <Navbar />
+      <Card />
+    </div>
+  );
 }
 
 export default App;
