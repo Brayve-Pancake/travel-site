@@ -1,5 +1,5 @@
 import pin from "../assets/pin.svg";
-image.png;
+
 export default function Card(props) {
   return (
     <div>
