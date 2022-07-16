@@ -1,3 +1,25 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  gap: 7px;
+}
+
+.nav--title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}

@@ -1,8 +1,11 @@
+import globe from "../assets/globe.svg";
+
 function Navbar() {
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <nav className="navbar">
+      <img src={globe} alt="globe" />
+      <h4 className="nav--title">Three boys travel the world</h4>
+    </nav>
   );
 }
 
