@@ -1,6 +1,6 @@
 import globe from "../assets/globe.svg";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <img src={globe} alt="globe" />
@@ -8,5 +8,3 @@ function Navbar() {
     </nav>
   );
 }
-
-export default Navbar;
